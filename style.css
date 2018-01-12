@@ -1,0 +1,76 @@
+style.css
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica,sans-serif;
+  font-size: 18px;
+  width: 960px;
+  background-color: #777;
+
+}
+
+
+header {
+  background: #ebebeb;
+  height: 40px;
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width:495px;
+  text-align: center;
+
+}
+
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+main{
+	background: #777;
+	position: static;	
+}
+
+.nav {
+  background: #ebebeb;
+  height: 40px;
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 495px;
+  text-align: center;
+  position: relative;
+
+}
+
+.section, .article {
+	float: left;
+	margin: 10px;
+}
+
+.section {
+	background: #ebebeb;
+	height: 150px;
+	width: 200px;
+	text-align: center;
+	position: static;
+
+}
+
+.article {
+	background: #ebebeb;
+	height: 150px;
+	width: 220px;
+	position: relative;
+	text-align: center;
+}
+
+footer {
+  background: #ebebeb;
+  height: 40px;
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width:495px;
+  text-align: center;
+
+}
